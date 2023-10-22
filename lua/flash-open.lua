@@ -17,7 +17,7 @@ function M.open()
 end
 
 function M.setup()
-  vim.cmd('command! Openfinder :lua require(\'M\').open()')
+  vim.cmd('command! Openfinder :lua require(\'flash-open\').open()')
 end
 
 return M
